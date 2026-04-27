@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/ocr",
+  baseURL: "https://receiptlens.onrender.com",
 });
 
 export const uploadFile = (formData) =>
